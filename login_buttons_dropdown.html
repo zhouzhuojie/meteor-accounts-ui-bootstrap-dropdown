@@ -33,16 +33,14 @@
 <!-- LOGGED OUT -->
 <!--            -->
 <template name="_loginButtonsLoggedOutDropdown">
-  <div class="nav-collapse collapse">
-    <ul class="nav pull-right">
-      <li id="login-dropdown-list" class="dropdown">
-        <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In / Up <strong class="caret"></strong></a>
-        <div class="dropdown-menu" style="padding: 20px; padding-bottom: 20px;">   
-          {{> _loginButtonsLoggedOutAllServices}}
-        </div>
-      </li>
-    </ul>
-  </div>
+  <ul class="nav pull-right">
+    <li id="login-dropdown-list" class="dropdown">
+      <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In / Up <strong class="caret"></strong></a>
+      <div class="dropdown-menu" style="padding: 20px; padding-bottom: 20px;">   
+        {{> _loginButtonsLoggedOutAllServices}}
+      </div>
+    </li>
+  </ul>
 </template>
 
 <template name="_loginButtonsLoggedOutAllServices">
